@@ -1,13 +1,10 @@
+distance = int(input("Enter distance in km:   "))
 
-score_int = int(score)
-
-if score_int >= 90:
-    print("Grade A")
-elif score_int >=80:
-    print("Grade B")
-elif score_int >=70:
-    print("Grade C")
-elif score_int >= 60:
-    print("Grade D")
+if distance > 15:
+    activity = "Travel by Car"
+elif distance > 3:
+    activity = "Travel by bike"
 else:
-    print("Grade F")
+    activity = "Go by Walking"
+
+print(activity)
