@@ -39,6 +39,4 @@ cd Python-Fundamentals
  
 Browse into any folder and run the scripts with Python 3.
  
-## Purpose
- 
-Personal practice log, part of a self-directed AI/ML learning path.
+
